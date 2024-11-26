@@ -1,6 +1,6 @@
-/* eslint-disable react/prop-types */
+/* eslint-disable */
+import React from "react";
 import { useCallback, useEffect, useState } from "react";
-import "./UserProfile.css";
 
 const calculateDiscountedPrice = (price, discount) => {
   return price - (price * discount) / 100;
